@@ -11,10 +11,10 @@ import 'owl.carousel/dist/assets/owl.theme.default.css';
 
 const E = () => {
    const teamMembers = [
-      { id: 1, imgSrc: experts6, fullName: 'John Doe', designation: 'Designer' },
-      { id: 2, imgSrc: experts5, fullName: 'Jane Smith', designation: 'Developer' },
-      { id: 3, imgSrc: experts4, fullName: 'Alex Johnson', designation: 'Manager' },
-      { id: 4, imgSrc: experts3, fullName: 'Emily Brown', designation: 'Marketing' }
+      { id: 1, imgSrc: experts6, fullName: 'Emily Brown', designation: 'Washing' },
+      { id: 2, imgSrc: experts5, fullName: 'Jane Smith', designation: 'Engine Specalist' },
+      { id: 3, imgSrc: experts4, fullName: 'Alex Johnson', designation: 'Part dealer' },
+      { id: 4, imgSrc: experts3, fullName: 'John Doe', designation: 'Head Driver' }
    ];
 
    return (

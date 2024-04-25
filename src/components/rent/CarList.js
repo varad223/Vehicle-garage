@@ -110,15 +110,15 @@ const CarList = () => {
                     <div className="col-lg-4 col-md-6 mb-2">
                         <div className="rent-item mb-4">
                             <img className="img-fluid mb-4" src={carrent1} alt="" />
-                            <h4 className="text-uppercase mb-4">Mercedes Benz R3</h4>
+                            <h4 className="text-uppercase mb-4">Mercedes-AMG GT</h4>
                             <div className="d-flex justify-content-center mb-4">
                                 <div className="px-2">
                                     <i class="fa fa-car text-primary mr-1"><DirectionsCarFilledSharpIcon fontSize="large" color="success" /></i>
-                                    <span>2015</span>
+                                    <span>2014</span>
                                 </div>
                                 <div className="px-2 border-left border-right">
                                     <SettingsSuggestSharpIcon fontSize="large" color="success" />
-                                    <span>AUTO</span>
+                                    <span>High-Performance Cars</span>
                                 </div>
                                 <div className="px-2">
                                     <div
@@ -133,11 +133,11 @@ const CarList = () => {
                                             }}
                                         />
                                     </div>
-                                    <span>250K</span>
+                                    <span>2km</span>
                                 </div>
                             </div>
                             <Link to="/vbook">
-                                <Button type="submit" className="btn btn-primary px-3">$99.00/Day</Button>
+                                <Button type="submit" className="btn btn-primary px-3">$500.00/Day</Button>
                             </Link>
                             {/*<Link to="/vbook" className="btn btn-primary px-3">$99.00/Day</Link>*/}
                         </div>
@@ -145,15 +145,15 @@ const CarList = () => {
                     <div className="col-lg-4 col-md-6 mb-2">
                         <div className="rent-item mb-4">
                             <img className="img-fluid mb-4" src={carrent2} alt="" />
-                            <h4 className="text-uppercase mb-4">Mercedes Benz R3</h4>
+                            <h4 className="text-uppercase mb-4">BMW X6 SUV</h4>
                             <div className="d-flex justify-content-center mb-4">
                                 <div className="px-2">
                                     <i class="fa fa-car text-primary mr-1"><DirectionsCarFilledSharpIcon fontSize="large" color="success" /></i>
-                                    <span>2015</span>
+                                    <span>2008</span>
                                 </div>
                                 <div className="px-2 border-left border-right">
                                     <SettingsSuggestSharpIcon fontSize="large" color="success" />
-                                    <span>AUTO</span>
+                                    <span>Luxury Cars</span>
                                 </div>
                                 <div className="px-2">
                                     <div
@@ -168,26 +168,26 @@ const CarList = () => {
                                             }}
                                         />
                                     </div>
-                                    <span>25K</span>
+                                    <span>6Km</span>
                                 </div>
                             </div>
                             <Link to="/vbook">
-                                <Button type="submit" className="btn btn-primary px-3">$99.00/Day</Button>
+                                <Button type="submit" className="btn btn-primary px-3">$600.00/Day</Button>
                             </Link>
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-6 mb-2">
                         <div className="rent-item mb-4">
                             <img className="img-fluid mb-4" src={carrent3} alt="" />
-                            <h4 className="text-uppercase mb-4">Mercedes Benz R3</h4>
+                            <h4 className="text-uppercase mb-4">Audi R8</h4>
                             <div className="d-flex justify-content-center mb-4">
                                 <div className="px-2">
                                     <i class="fa fa-car text-primary mr-1"><DirectionsCarFilledSharpIcon fontSize="large" color="success" /></i>
-                                    <span>2015</span>
+                                    <span>2006</span>
                                 </div>
                                 <div className="px-2 border-left border-right">
                                     <SettingsSuggestSharpIcon fontSize="large" color="success" />
-                                    <span>AUTO</span>
+                                    <span>High-Performance</span>
                                 </div>
                                 <div className="px-2">
                                     <div
@@ -202,26 +202,26 @@ const CarList = () => {
                                             }}
                                         />
                                     </div>
-                                    <span>25K</span>
+                                    <span>1Km</span>
                                 </div>
                             </div>
                             <Link to="/vbook">
-                                <Button type="submit" className="btn btn-primary px-3">$99.00/Day</Button>
+                                <Button type="submit" className="btn btn-primary px-3">$800.00/Day</Button>
                             </Link>
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-6 mb-2">
                         <div className="rent-item mb-4">
                             <img className="img-fluid mb-4" src={carrent4} alt="" />
-                            <h4 className="text-uppercase mb-4">Mercedes Benz R3</h4>
+                            <h4 className="text-uppercase mb-4">Audi Q3</h4>
                             <div className="d-flex justify-content-center mb-4">
                                 <div className="px-2">
                                     <i class="fa fa-car text-primary mr-1"><DirectionsCarFilledSharpIcon fontSize="large" color="success" /></i>
-                                    <span>2015</span>
+                                    <span>2011</span>
                                 </div>
                                 <div className="px-2 border-left border-right">
                                     <SettingsSuggestSharpIcon fontSize="large" color="success" />
-                                    <span>AUTO</span>
+                                    <span>Compact SUV</span>
                                 </div>
                                 <div className="px-2">
                                     <div
@@ -236,26 +236,26 @@ const CarList = () => {
                                             }}
                                         />
                                     </div>
-                                    <span>25K</span>
+                                    <span>15Km</span>
                                 </div>
                             </div>
                             <Link to="/vbook">
-                                <Button type="submit" className="btn btn-primary px-3">$99.00/Day</Button>
+                                <Button type="submit" className="btn btn-primary px-3">$75.00/Day</Button>
                             </Link>
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-6 mb-2">
                         <div className="rent-item mb-4">
                             <img className="img-fluid mb-4" src={carrent5} alt="" />
-                            <h4 className="text-uppercase mb-4">Mercedes Benz R3</h4>
+                            <h4 className="text-uppercase mb-4">Mercedes-Benz C-Class</h4>
                             <div className="d-flex justify-content-center mb-4">
                                 <div className="px-2">
                                     <i class="fa fa-car text-primary mr-1"><DirectionsCarFilledSharpIcon fontSize="large" color="success" /></i>
-                                    <span>2015</span>
+                                    <span>2014</span>
                                 </div>
                                 <div className="px-2 border-left border-right">
                                     <SettingsSuggestSharpIcon fontSize="large" color="success" />
-                                    <span>AUTO</span>
+                                    <span>Luxury Cars</span>
                                 </div>
                                 <div className="px-2">
                                     <div
@@ -270,18 +270,18 @@ const CarList = () => {
                                             }}
                                         />
                                     </div>
-                                    <span>25K</span>
+                                    <span>5Km</span>
                                 </div>
                             </div>
                             <Link to="/vbook">
-                                <Button type="submit" className="btn btn-primary px-3">$99.00/Day</Button>
+                                <Button type="submit" className="btn btn-primary px-3">$150.00/Day</Button>
                             </Link>
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-6 mb-2">
                         <div className="rent-item mb-4">
                             <img className="img-fluid mb-4" src={carrent6} alt="" />
-                            <h4 className="text-uppercase mb-4">Mercedes Benz R3</h4>
+                            <h4 className="text-uppercase mb-4">Audi R8 Spyder V10</h4>
                             <div className="d-flex justify-content-center mb-4">
                                 <div className="px-2">
                                     <i class="fa fa-car text-primary mr-1"><DirectionsCarFilledSharpIcon fontSize="large" color="success" /></i>
@@ -289,7 +289,7 @@ const CarList = () => {
                                 </div>
                                 <div className="px-2 border-left border-right">
                                     <SettingsSuggestSharpIcon fontSize="large" color="success" />
-                                    <span>AUTO</span>
+                                    <span>High-Performance Cars</span>
                                 </div>
                                 <div className="px-2">
                                     <div
@@ -304,11 +304,11 @@ const CarList = () => {
                                             }}
                                         />
                                     </div>
-                                    <span>25K</span>
+                                    <span>7Km</span>
                                 </div>
                             </div>
                             <Link to="/vbook">
-                                <Button type="submit" className="btn btn-primary px-3">$99.00/Day</Button>
+                                <Button type="submit" className="btn btn-primary px-3">$800.00/Day</Button>
                             </Link>
                         </div>
                     </div>

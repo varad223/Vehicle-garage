@@ -60,10 +60,10 @@ const Service = () => {
                                             </div>
                                             <div className="col-md-6">
                                                 <h3 className="mb-3">15 Years Of Experience In Auto Servicing</h3>
-                                                <p className="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                                                <p><i className="fa fa-check text-success me-3"></i>Quality Servicing</p>
-                                                <p><i className="fa fa-check text-success me-3"></i>Expert Workers</p>
-                                                <p><i className="fa fa-check text-success me-3"></i>Modern Equipment</p>
+                                                <p className="mb-4">a procedure used to identify issues or problems with a vehicle's systems, components, or performance</p>
+                                                <p><i className="fa fa-check text-success me-3"></i>Engine Computer (ECU)</p>
+                                                <p><i className="fa fa-check text-success me-3"></i>Check Engine Light</p>
+                                                <p><i className="fa fa-check text-success me-3"></i>OBD-II (On-Board Diagnostics, standard diagnostic port)</p>
                                                 <Link to="/bservices">
                                                     <Button type="submit" className="btn btn-primary px-3">BOOK</Button>
                                                 </Link>
@@ -84,10 +84,10 @@ const Service = () => {
                                             </div>
                                             <div className="col-md-6">
                                                 <h3 className="mb-3">15 Years Of Experience In Auto Servicing</h3>
-                                                <p className="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                                                <p><i className="fa fa-check text-success me-3"></i>Quality Servicing</p>
-                                                <p><i className="fa fa-check text-success me-3"></i>Expert Workers</p>
-                                                <p><i className="fa fa-check text-success me-3"></i>Modern Equipment</p>
+                                                <p className="mb-4"> maintenance and inspection tasks focused on keeping the engine running smoothly and efficiently.</p>
+                                                <p><i className="fa fa-check text-success me-3"></i>Spark Plugs</p>
+                                                <p><i className="fa fa-check text-success me-3"></i>Fuel System Cleaning</p>
+                                                <p><i className="fa fa-check text-success me-3"></i>Air Filter</p>
                                                 <Link to="/bservices">
                                                     <Button type="submit" className="btn btn-primary px-3">BOOK</Button>
                                                 </Link>
@@ -108,10 +108,10 @@ const Service = () => {
                                             </div>
                                             <div className="col-md-6">
                                                 <h3 className="mb-3">15 Years Of Experience In Auto Servicing</h3>
-                                                <p className="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                                                <p><i className="fa fa-check text-success me-3"></i>Quality Servicing</p>
-                                                <p><i className="fa fa-check text-success me-3"></i>Expert Workers</p>
-                                                <p><i className="fa fa-check text-success me-3"></i>Modern Equipment</p>
+                                                <p className="mb-4">Tires need replacement when they are worn out beyond safe limits or damaged</p>
+                                                <p><i className="fa fa-check text-success me-3"></i>Wear Bars</p>
+                                                <p><i className="fa fa-check text-success me-3"></i>Cracks & Bulges</p>
+                                                <p><i className="fa fa-check text-success me-3"></i>Tire Rotation</p>
                                                 <Link to="/bservices">
                                                     <Button type="submit" className="btn btn-primary px-3">BOOK</Button>
                                                 </Link>
@@ -132,10 +132,10 @@ const Service = () => {
                                             </div>
                                             <div className="col-md-6">
                                                 <h3 className="mb-3">15 Years Of Experience In Auto Servicing</h3>
-                                                <p className="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                                                <p><i className="fa fa-check text-success me-3"></i>Quality Servicing</p>
-                                                <p><i className="fa fa-check text-success me-3"></i>Expert Workers</p>
-                                                <p><i className="fa fa-check text-success me-3"></i>Modern Equipment</p>
+                                                <p className="mb-4">lubricating engine components, reducing friction, cooling, and carrying away contaminants</p>
+                                                <p><i className="fa fa-check text-success me-3"></i>Synthetic Oil</p>
+                                                <p><i className="fa fa-check text-success me-3"></i>Viscosity</p>
+                                                <p><i className="fa fa-check text-success me-3"></i>Service Interval</p>
                                                 <Link to="/bservices">
                                                     <Button type="submit" className="btn btn-primary px-3">BOOK</Button>
                                                 </Link>
