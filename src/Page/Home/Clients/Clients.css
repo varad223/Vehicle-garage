@@ -1,0 +1,43 @@
+/* ServicesSection.css */
+
+:root {
+  --primary: #F77D0A;
+  --secondary: #2B2E4A;
+  --light: #F4F5F8;
+  --dark: #1C1E32;
+}
+
+.service-item {
+  height: 320px;
+  background: var(--light);
+  transition: .5s;
+}
+
+.service-item.active {
+  background: var(--secondary);
+}
+
+.service-item h1,
+.service-item h4 {
+  transition: .5s;
+}
+
+.service-item:hover h1,
+.service-item.active h1 {
+  color: var(--dark) !important;
+}
+
+.service-item:hover h4,
+.service-item.active h4 {
+  color: var(--primary);
+}
+
+.service-item .d-flex.align-items-center.justify-content-center.bg-primary {
+  width: 80px;
+  height: 80px;
+}
+
+.service-item .d-flex.align-items-center.justify-content-center.bg-primary i {
+  font-size: 2rem; /* Adjust font size as needed */
+  color: var(--secondary);
+}

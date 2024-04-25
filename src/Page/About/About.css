@@ -1,0 +1,65 @@
+.about-h1 {
+    background-color: #00a8a8;
+    padding: 80px;
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+}
+
+:root {
+    --primary: #D81324;
+    --secondary: #0B2154;
+    --light: #F2F2F2;
+    --dark: #111111;
+}
+
+.fw-medium {
+    font-weight: 600 !important;
+}
+
+.btn {
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.btn.btn-primary,
+.btn.btn-secondary {
+    color: #ffffff;
+}
+
+/* Add more button styles as needed */
+
+.page-header {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page-header-inner {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+/* Add more styles for other sections like Service, Booking, Team, Testimonial, Footer, etc. */
+
+/* Example styles for the Facts section */
+.fact {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./carousel-bg-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Example styles for the Team section */
+.team-item .team-overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--primary);
+    transform: scale(0);
+    transition: 0.5s;
+}
+
+.team-item:hover .team-overlay {
+    transform: scale(1);
+}

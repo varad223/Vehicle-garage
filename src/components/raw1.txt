@@ -1,0 +1,569 @@
+import React from 'react';
+import './Contact.css';
+
+const Contact = () => {
+   return (
+      <div id='contact'>
+
+         <section class="contact-area" >
+            <h1 className='text-center p-4 heading'>Contact Us</h1>
+            <div class="container">
+               <div class="row">
+                  <div class="col-xl-7 col-lg-8">
+                     <div class="section-title mt-45">
+                        <h3 class="title">Get in touch</h3>
+                     </div>
+                     <div class="contact-form form-style-four mt-15">
+                        <form action="#">
+                           <div class="row">
+                              <div class="col-md-6">
+                                 <div class="form-input mt-15">
+                                    <label>Full Name</label>
+                                    <div class="input-items default">
+                                       <i class="lni lni-user"></i>
+                                       <input type="text" placeholder="John Doe" />
+                                    </div>
+                                 </div>
+
+                              </div>
+                              <div class="col-md-6">
+                                 <div class="form-input mt-15">
+                                    <label>Email Address</label>
+                                    <div class="input-items default">
+                                       <i class="lni lni-envelope"></i>
+                                       <input type="text" placeholder="admin@uideck.com" />
+                                    </div>
+                                 </div>
+
+                              </div>
+                              <div class="col-md-6">
+                                 <div class="form-input mt-15">
+                                    <label>Phone Number</label>
+                                    <div class="input-items default">
+                                       <i class="lni lni-phone"></i>
+                                       <input type="text" placeholder="01234567890" />
+                                    </div>
+                                 </div>
+
+                              </div>
+                              <div class="col-md-6">
+                                 <div class="form-input mt-15">
+                                    <label>Subject</label>
+                                    <div class="input-items default">
+                                       <i class="lni lni-bubble"></i>
+                                       <input type="text" placeholder="Type here" />
+                                    </div>
+                                 </div>
+
+                              </div>
+                              <div class="col-md-12">
+                                 <div class="form-input mt-15">
+                                    <label>Your Message</label>
+                                    <div class="input-items default">
+                                       <i class="lni lni-pencil-alt"></i>
+                                       <textarea
+                                          placeholder="Type your message here"
+                                       ></textarea>
+                                    </div>
+                                 </div>
+
+                              </div>
+                              <div class="col-md-12">
+                                 <div class="single-form mt-15">
+                                    <div class="input-form rounded-buttons">
+                                       <button
+                                          class="btn primary-btn rounded-full"
+                                          type="submit"
+                                       >
+                                          SEND MESSAGE
+                                       </button>
+                                    </div>
+                                 </div>
+
+                              </div>
+                           </div>
+
+                        </form>
+                     </div>
+
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-6 col-sm-8 offset-xl-1">
+                     <div class="section-title mt-5">
+                        <h3 class="title">Contact Information</h3>
+                     </div>
+                     <div class="contact-info">
+                        <ul class="info">
+                           <li>
+                              <div class="single-info">
+                                 <div class="info-icon">
+                                    <i class="lni lni-map-marker"></i>
+                                 </div>
+                                 <div class="info-content">
+                                    <p class="text">
+                                       Madison Street, NewYork, USA
+                                    </p>
+                                 </div>
+                              </div>
+
+                           </li>
+                           <li>
+                              <div class="single-info">
+                                 <div class="info-icon">
+                                    <i class="lni lni-phone"></i>
+                                 </div>
+                                 <div class="info-content">
+                                    <p class="text">+61 (8) 8234 3555</p>
+                                 </div>
+                              </div>
+
+                           </li>
+                           <li>
+                              <div class="single-info">
+                                 <div class="info-icon">
+                                    <i class="lni lni-phone-set"></i>
+                                 </div>
+                                 <div class="info-content">
+                                    <p class="text">+61 (8) 8234 3555</p>
+                                 </div>
+                              </div>
+
+                           </li>
+                           <li>
+                              <div class="single-info">
+                                 <div class="info-icon">
+                                    <i class="lni lni-envelope"></i>
+                                 </div>
+                                 <div class="info-content">
+                                    <p class="text">support@thecardoctor.com</p>
+                                 </div>
+                              </div>
+
+                           </li>
+                        </ul>
+                        
+                     </div>
+
+                  </div>
+               </div>
+
+            </div>
+         </section>
+      </div>
+   );
+};
+
+export default Contact;
+
+
+/* ===== Buttons Css ===== */
+
+.contact-form .single-form .input-form .primary-btn {
+    background: var(--primary);
+    color: var(--white);
+    box-shadow: var(--shadow-2);
+  }
+  .contact-form .single-form .input-form .active.primary-btn, .contact-form .single-form .input-form .primary-btn:hover, .contact-form .single-form .input-form .primary-btn:focus {
+    background: var(--primary-dark);
+    color: var(--white);
+    box-shadow: var(--shadow-4);
+  }
+  .contact-form .single-form .input-form .deactive.primary-btn {
+    background: var(--gray-4);
+    color: var(--dark-3);
+    pointer-events: none;
+  }
+  
+  /*===========================
+      contact-01 css 
+  ===========================*/
+  .contact-area {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background-color: var(--light-3);
+  }
+  .contact-area .mt-15 {
+    margin-top: 15px;
+  }
+  .contact-area .section-title .title {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 55px;
+  }
+  @media (max-width: 767px) {
+    .contact-area .section-title .title {
+      font-size: 24px;
+      line-height: 35px;
+    }
+  }
+  
+  .contact-form .single-form label {
+    font-size: 12px;
+    color: var(--dark-2);
+    line-height: 18px;
+    margin-left: 44px;
+  }
+  .contact-form .single-form .input-form {
+    position: relative;
+  }
+  .contact-form .single-form .input-form i {
+    font-size: 24px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: var(--dark-3);
+  }
+  .contact-form .single-form .input-form textarea, .contact-form .single-form .input-form input {
+    width: 100%;
+    height: 44px;
+    padding-left: 45px;
+    padding-right: 30px;
+    color: var(--dark-3);
+    font-size: 16px;
+    border: 0;
+    border-bottom: 1px solid var(--gray-4);
+    font-weight: 500;
+  }
+  .contact-form .single-form .input-form textarea::placeholder, .contact-form .single-form .input-form input::placeholder {
+    opacity: 1;
+    color: var(--dark-3);
+  }
+  .contact-form .single-form .input-form textarea {
+    padding-top: 10px;
+  }
+  .form-input .help-block {
+    margin-top: 2px;
+  }
+  .form-input .help-block .list-unstyled li {
+    font-size: 12px;
+    line-height: 16px;
+    color: var(--error);
+  }
+  .form-input label {
+    font-size: 12px;
+    line-height: 18px;
+    color: var(--dark-3);
+    margin-bottom: 8px;
+    display: inline-block;
+  }
+  .form-input .input-items {
+    position: relative;
+  }
+  .form-input .input-items input, .form-input .input-items textarea {
+    width: 100%;
+    height: 44px;
+    border: 2px solid;
+    padding-left: 44px;
+    padding-right: 12px;
+    position: relative;
+    font-size: 16px;
+  }
+  .form-input .input-items textarea {
+    padding-top: 8px;
+    height: 130px;
+    resize: none;
+  }
+  .form-input .input-items i {
+    position: absolute;
+    top: 11px;
+    left: 13px;
+    font-size: 20px;
+    z-index: 9;
+  }
+  .form-input .input-items.default input, .form-input .input-items.default textarea {
+    border-color: var(--gray-4);
+    color: var(--dark-3);
+  }
+  .form-input .input-items.default input:focus, .form-input .input-items.default textarea:focus {
+    border-color: var(--primary);
+  }
+  .form-input .input-items.default input::placeholder, .form-input .input-items.default textarea::placeholder {
+    color: var(--dark-3);
+    opacity: 1;
+  }
+  .form-input .input-items.default i {
+    color: var(--dark-3);
+  }
+  .form-input .input-items.active input, .form-input .input-items.active textarea {
+    border-color: var(--primary-dark);
+    color: var(--black);
+  }
+  .form-input .input-items.active input::placeholder, .form-input .input-items.active textarea::placeholder {
+    color: var(--black);
+    opacity: 1;
+  }
+  .form-input .input-items.active i {
+    color: var(--primary-dark);
+  }
+  .form-input .input-items.error input, .form-input .input-items.error textarea {
+    border-color: var(--error);
+    color: var(--error);
+  }
+  .form-input .input-items.error input::placeholder, .form-input .input-items.error textarea::placeholder {
+    color: var(--error);
+    opacity: 1;
+  }
+  .form-input .input-items.error i {
+    color: var(--error);
+  }
+  .form-input .input-items.success input, .form-input .input-items.success textarea {
+    border-color: var(--success);
+    color: var(--success);
+  }
+  .form-input .input-items.success input::placeholder, .form-input .input-items.success textarea::placeholder {
+    color: var(--success);
+    opacity: 1;
+  }
+  .form-input .input-items.success i {
+    color: var(--success);
+  }
+  .form-input .input-items.disabled input, .form-input .input-items.disabled textarea {
+    border-color: var(--dark-2);
+    color: var(--dark-3);
+    background: none;
+  }
+  .form-input .input-items.disabled input::placeholder, .form-input .input-items.disabled textarea::placeholder {
+    color: var(--dark-3);
+    opacity: 1;
+  }
+  .form-input .input-items.disabled i {
+    color: var(--dark-3);
+  }
+  
+  .form-style-four .form-input label {
+    padding-left: 44px;
+    margin-bottom: 0;
+  }
+  .form-style-four .form-input .input-items input, .form-style-four .form-input .input-items textarea {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+  }
+  
+  .contact-info ul li .single-info {
+    position: relative;
+    margin-top: 19px;
+  }
+  .contact-info ul li .single-info .info-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .contact-info ul li .single-info .info-icon i {
+    color: var(--dark-3);
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .contact-info ul li .single-info .info-content {
+    padding-left: 30px;
+  }
+  .contact-info ul li .single-info .info-content .text {
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--dark-3);
+    font-weight: 500;
+  }
+  .contact-info .social li {
+    display: inline-block;
+    margin-right: 12px;
+  }
+  .contact-info .social li a {
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    line-height: 38px;
+    border: 1px solid rgba(0, 0, 0, 0.096);
+    text-align: center;
+    border-radius: 5px;
+    color: var(--dark-3);
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+  }
+  .contact-info .social li a:hover {
+    color: var(--white);
+    background-color: var(--primary);
+    border-color: transparent;
+  }
+
+import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+import './Contact.css'
+
+const Contact = () => {
+   const navigate = useNavigate();
+
+   const [formResponse, setFormResponse] = useState(true);
+
+   const handleSubmit = async (event) => {
+      event.preventDefault(); // Prevent default form submission behavior
+
+      const formData = new FormData(event.target);
+      const data = Object.fromEntries(formData.entries());
+
+      try {
+         let response = await fetch('http://localhost:4000/contact', {
+            method: 'POST',
+            headers: {
+               'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(data),
+         });
+
+         if (response.ok) {
+            alert('Message sent successfully!');
+            navigate('/'); // Redirect to home page after successful submission
+         } else {
+            setFormResponse(false);
+         }
+      } catch (error) {
+         console.error('Error sending message:', error.message);
+         setFormResponse(false);
+      }
+   };
+   return (
+      <>
+         <div id="contact">
+            <section className="contact-area">
+               <h1 className="text-center p-4 heading">Contact Us</h1>
+               <div className="container">
+                  <div className="row">
+                     <div className="col-xl-7 col-lg-8">
+                        <div className="section-title mt-45">
+                           <h3 className="title">Get in touch</h3>
+                        </div>
+                        <div className="contact-form form-style-four mt-15">
+                           <form onSubmit={handleSubmit}>
+                              <div className="row">
+                                 <div className="col-md-6">
+                                    <div className="form-input mt-15">
+                                       <label>Full Name</label>
+                                       <div className="input-items default">
+                                          <i className="lni lni-user"></i>
+                                          <input type="text" name="name" placeholder="Full Name" />
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div className="col-md-6">
+                                    <div className="form-input mt-15">
+                                       <label>Email Address</label>
+                                       <div className="input-items default">
+                                          <i className="lni lni-envelope"></i>
+                                          <input type="email" name="email" placeholder="Email Address" />
+                                       </div>
+                                    </div>
+                                 </div>
+                                 {/* Add more input fields as needed */}
+                              </div>
+                              <div className="col-md-12">
+                                 <div className="single-form mt-15">
+                                    <div className="input-form rounded-buttons">
+                                       <button className="btn primary-btn rounded-full" type="submit">
+                                          SEND MESSAGE
+                                       </button>
+                                    </div>
+                                 </div>
+                              </div>
+                           </form>
+                           {!formResponse && <div className="error">Error sending message. Please try again.</div>}
+                        </div>
+                     </div>
+                     <div className="col-xl-4 col-lg-4 col-md-6 col-sm-8 offset-xl-1">
+                        <div className="section-title mt-5">
+                           <h3 className="title">Contact Information</h3>
+                        </div>
+                        <div className="contact-info">
+                           <ul className="info">
+                              <li>
+                                 <div className="single-info">
+                                    <div className="info-icon">
+                                       <i className="lni lni-map-marker"></i>
+                                    </div>
+                                    <div className="info-content">
+                                       <p className="text">Madison Street, NewYork, USA</p>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li>
+                                 <div className="single-info">
+                                    <div className="info-icon">
+                                       <i className="lni lni-phone"></i>
+                                    </div>
+                                    <div className="info-content">
+                                       <p className="text">+61 (8) 8234 3555</p>
+                                    </div>
+                                 </div>
+                              </li>
+                              {/* Add more contact information as needed */}
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+         </div>
+      </>
+   );
+};
+
+export default Contact;
+
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.checkout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-container {
+  width: 400px;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+}
+
+.form-label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-input,
+.form-select,
+.form-textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.form-button {
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  margin-top: 15px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-button:hover {
+  background-color: #3e8e41;
+}
+
+.error {
+  color: red;
+  margin-top: 5px;
+  font-size: 14px;
+}
