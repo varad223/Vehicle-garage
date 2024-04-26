@@ -7,7 +7,7 @@ const router = express.Router();
 router.post('/sbook', [
     body('name').exists(),
     body('email', 'Enter a valid Email').isEmail(),
-    body('service').isIn(['service1', 'service2', 'service3']), // Validate service against enum values
+    body('service').isIn(['Diagnostic Test', 'Engine Servicing', 'Tires Replacement', 'Oil Changing']), // Validate service against enum values
     body('specialRequest').optional(), // Special request is optional
 ],
     async (req, res) => {

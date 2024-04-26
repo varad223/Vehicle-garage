@@ -13,7 +13,7 @@ const bookingSchema = new mongoose.Schema({
     // Service Details
     service: {
         type: String,
-        enum: ['service1', 'service2', 'service3'], // Adjust enum values as needed
+        enum: ['Diagnostic Test', 'Engine Servicing', 'Tires Replacement', 'Oil Changing'], // Adjust enum values as needed
         required: true
     },
     specialRequest: {
