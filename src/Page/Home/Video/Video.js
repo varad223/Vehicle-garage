@@ -10,10 +10,10 @@ import 'owl.carousel/dist/assets/owl.theme.default.css';
 
 
 const testimonials = [
-  { id: 1, imgSrc: testimonial1, name: 'Client Name', profession: 'Profession', text: 'Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.' },
-  { id: 2, imgSrc: testimonial2, name: 'Client Name', profession: 'Profession', text: 'Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.' },
-  { id: 3, imgSrc: testimonial3, name: 'Client Name', profession: 'Profession', text: 'Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.' },
-  { id: 4, imgSrc: testimonial4, name: 'Client Name', profession: 'Profession', text: 'Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.' },];
+  { id: 1, imgSrc: testimonial1, name: 'Mili', profession: 'C.A', text: 'Good Rental services' },
+  { id: 2, imgSrc: testimonial2, name: 'Nobita', profession: 'Teacher', text: 'Good Vehicle services.' },
+  { id: 3, imgSrc: testimonial3, name: 'Bruce', profession: 'Auto Service', text: 'Premium Part at Budget cost.' },
+  { id: 4, imgSrc: testimonial4, name: 'Perry', profession: 'COP', text: 'All in one Place for vehicle' },];
 const Video = () => {
   
       return (

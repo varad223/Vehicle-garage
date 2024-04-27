@@ -82,23 +82,23 @@ const Header = () => {
                 <Carousel.Item interval={1500}>
                     <img src={a} alt="Logo" />
                     <Carousel.Caption>
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <h3>Vehicle Repairing</h3>
+                        <p>All repairing in single touch.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item interval={1500}>
                     <img src={b} alt="Logo" />
                     <Carousel.Caption>
-                        <h3>Second slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <h3>Vehicle Parts Seller</h3>
+                        <p>New to old all spare parts are here.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item interval={1500}>
                     <img src={c} alt="Logo" />
                     <Carousel.Caption>
-                        <h3>Third slide label</h3>
+                        <h3>Vehicle Rental</h3>
                         <p>
-                            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                            Enjoy every ride of your life.
                         </p>
                     </Carousel.Caption>
                 </Carousel.Item>

@@ -5,6 +5,7 @@ import logo from './logo.png'
 import { MdCarRental } from "react-icons/md";
 import SupportAgentIcon from '@mui/icons-material/SupportAgent';
 import CarRentalIcon from '@mui/icons-material/CarRental';
+import LocationOnIcon from '@mui/icons-material/LocationOn';
 import { RiCustomerService2Line } from "react-icons/ri";
 const Features = () => {
   return (
@@ -40,7 +41,7 @@ const Features = () => {
                 <div
                   className="d-flex align-items-center justify-content-center flex-shrink-0 bg-primary ml-n4 mr-4"
                   style={{ width: '100px', height: '100px' }}>
-                  <SupportAgentIcon />
+                  <SupportAgentIcon fontSize="large"/>
                 </div>
                 <h4 className="text-uppercase m-0">24/7 Car Rental
                   Support</h4>
@@ -63,7 +64,7 @@ const Features = () => {
                 <div
                   className="d-flex align-items-center justify-content-center flex-shrink-0 bg-primary ml-n4 mr-4"
                   style={{ width: '100px', height: '100px' }}>
-                  
+                  <LocationOnIcon fontSize="large"/>
                 </div>
                 <h4 className="text-uppercase m-0">LOTS OF PICKUP LOCATIONS</h4>
               </div>

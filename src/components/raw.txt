@@ -18,7 +18,7 @@ const Vbook = () => {
     const onSubmit = async (data) => {
         // console.log("Form submitted with data:", data);
         try {
-            let r = await fetch("http://localhost:4000/bookv/vbook", {
+            let r = await fetch("http://localhost:4000/bookv/rent", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
@@ -197,7 +197,7 @@ const Vbook = () => {
                             />
                         </div>
 
-                        {/* Payment Method */}
+                        {/* Payment Method 
                         <h2>Payment Method</h2>
                         <div className="field">
                             <div className="custom-control custom-radio">
@@ -243,7 +243,7 @@ const Vbook = () => {
                                     Bank Transfer
                                 </label>
                             </div>
-                        </div>
+                        </div>*/}
 
                         <div className="field">
                             {!formResponse && (

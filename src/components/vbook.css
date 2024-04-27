@@ -1,57 +1,100 @@
+/* General Styles */
 body {
-    font-family: sans-serif;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
+/* Two-Column Layout Styles */
 .checkout {
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
+    align-items: flex-start;
+    min-height: 100vh;
+    background-color: #f4f4f4;
 }
 
-.form-container {
-    width: 400px;
-    padding: 30px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #f5f5f5;
+.formContainer {
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
-.form-label {
+.formContent {
+    display: flex;
+    gap: 20px;
+}
+
+.formSection {
+    flex: 1;
+}
+
+/* Form Styles */
+.label {
+    font-size: 12px;
+    color: #333;
+    line-height: 18px;
     margin-bottom: 5px;
-    font-weight: bold;
 }
 
-.form-input,
-.form-select,
-.form-textarea {
+.input-form {
+    position: relative;
+}
+
+.input-form i {
+    font-size: 20px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #999;
+}
+
+.input {
     width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
+    height: 40px;
+    padding-left: 35px;
+    color: #333;
+    font-size: 14px;
     border: 1px solid #ccc;
-    border-radius: 3px;
-}
-
-.form-button {
-    display: block;
-    width: 100%;
-    padding: 10px 20px;
-    margin-top: 15px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
     border-radius: 5px;
-    cursor: pointer;
+    box-sizing: border-box;
+    margin-bottom: 15px;
 }
 
-.form-button:hover {
-    background-color: #3e8e41;
+.input::placeholder {
+    color: #999;
 }
 
 .error {
-    color: red;
-    margin-top: 5px;
-    font-size: 14px;
+    margin-top: 2px;
+    font-size: 12px;
+    color: #f44336;
+}
+
+/* Button Styles */
+.primary-btn {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s, box-shadow 0.3s;
+}
+
+.primary-btn:hover,
+.primary-btn:focus {
+    background: #0056b3;
+    box-shadow: 0px 0px 10px rgba(0, 123, 255, 0.5);
+}
+
+.primary-btn:disabled,
+.deactive {
+    background: #ccc;
+    color: #999;
+    cursor: not-allowed;
 }
