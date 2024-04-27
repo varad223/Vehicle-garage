@@ -1,20 +1,20 @@
 const mongoose = require('mongoose');
 
-const contactSchema = new mongoose.Schema({
+// Define Contact Schema
+const ContactSchema = new mongoose.Schema({
     name: {
         type: String,
         required: true
     },
     email: {
         type: String,
-        required: true,
-        unique: true // Ensure unique emails
+        required: true
     },
-    phoneNumber: {
+    phone: {
         type: String,
         required: true
     },
-    subject: {
+    subj: {
         type: String,
         required: true
     },
@@ -24,18 +24,11 @@ const contactSchema = new mongoose.Schema({
     },
     createdAt: {
         type: Date,
-        default: Date.now // Default to current date/time
+        default: Date.now
     }
-    // Add more fields if needed
 });
 
-contactSchema.index({ email: 1 });
-
-// Virtual example
-contactSchema.virtual('fullName').get(function () {
-    return `${this.name}`;
-});
-
-const Contact = mongoose.model('Contact', contactSchema);
+// Create Contact model based on the schema
+const Contact = mongoose.model('Contact', ContactSchema);
 
 module.exports = Contact;

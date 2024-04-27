@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useForm } from "react-hook-form";
 import { useNavigate } from 'react-router-dom';
 import './Contact.css';
 
@@ -24,15 +25,15 @@ const Contact = () => {
    const handleSubmit = async (event) => {
       event.preventDefault();
       try {
-         const response = await fetch('http://localhost:4000/contact/contacts', {
+         let r = await fetch("http://localhost:4000/contact/contact", {
             method: 'POST',
-            headers: {
-               'Content-Type': 'application/json',
-            },
+            /*headers: {
+               'Content-type': 'text/plain',
+            },*/
             body: JSON.stringify(formData),
          });
 
-         if (response.ok) {
+         if (r.ok) {
             alert('Message sent successfully!');
             navigate('/contact');
          } else {
@@ -72,7 +73,7 @@ const Contact = () => {
                                        <label>Email Address</label>
                                        <div className="input-items default">
                                           <i className="lni lni-envelope"></i>
-                                          <input type="email" name="email" placeholder="Email Address" />
+                                          <input type="text" name="email" placeholder="Email Address" />
                                        </div>
                                     </div>
                                  </div>

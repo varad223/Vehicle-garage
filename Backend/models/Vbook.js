@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const bookingSchema = new mongoose.Schema({
+const rentSchema = new mongoose.Schema({
     // Personal Details
     firstName: {
         type: String,
@@ -64,6 +64,6 @@ const bookingSchema = new mongoose.Schema({
 }
 );
 
-const Booking = mongoose.model('Booking', bookingSchema);
+const Rent = mongoose.model('Rent', rentSchema);
 
-module.exports = Booking;
+module.exports = Rent;

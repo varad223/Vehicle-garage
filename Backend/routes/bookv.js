@@ -4,7 +4,7 @@ const { body, validationResult } = require('express-validator');
 const router = express.Router();
 
 // Creating a Booking
-router.post('/vbook', [
+router.post('/rent', [
     body('firstName').exists(),
     body('lastName').exists(),
     body('email', 'Enter valid Email').isEmail(),

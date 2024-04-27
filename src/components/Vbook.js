@@ -18,7 +18,7 @@ const Vbook = () => {
     const onSubmit = async (data) => {
         // console.log("Form submitted with data:", data);
         try {
-            let r = await fetch("http://localhost:4000/bookv/vbook", {
+            let r = await fetch("http://localhost:4000/bookv/rent", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",

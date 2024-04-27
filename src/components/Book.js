@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import './Book.css'
+import './Book.css';
 const Book = () => {
     const navigate = useNavigate();
 
@@ -10,10 +10,15 @@ const Book = () => {
         event.preventDefault(); // Prevent default form submission behavior
 
         const formData = new FormData(event.target);
-        const data = Object.fromEntries(formData.entries());
+        const data = {
+            name: formData.get('name'),
+            email: formData.get('email'),
+            service: formData.get('service'),
+            specialRequest: formData.get('special_request')
+        };
 
         try {
-            let r = await fetch("http://localhost:4000/books/sbook", {
+            let response = await fetch("http://localhost:4000/books/service", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
@@ -21,20 +26,19 @@ const Book = () => {
                 body: JSON.stringify(data),
             });
 
-            let res = await r.text();
-
-            if (r.status === 200) {
-                sessionStorage.setItem('authToken', res);
+            if (response.ok) {
+                let res = await response.json();
+                sessionStorage.setItem('authToken', res.token);
                 alert('Booking Success');
                 navigate('/services');
             } else {
                 setFormResponse(false);
             }
-
         } catch (error) {
             console.error("Error submitting form:", error.message);
         }
     };
+
     return (
         <>
             <div className="checkout">
