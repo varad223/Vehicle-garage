@@ -47,6 +47,7 @@
     "jest-watch-typeahead": "^1.0.0",
     "jquery": "^3.7.1",
     "jquery-datetimepicker": "^2.5.21",
+    "latest-version": "^9.0.0",
     "mini-css-extract-plugin": "^2.4.5",
     "owl.carousel": "^2.3.4",
     "postcss": "^8.4.4",
